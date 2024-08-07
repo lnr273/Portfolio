@@ -3,6 +3,7 @@ import Home from './pages/Home/Home.jsx';
 import Sobre from './pages/Sobre/Sobre.jsx';
 import Projetos from './pages/Projetos/Projetos.jsx';
 import Contatos from './pages/Contatos/Contatos.jsx';
+import Page404 from './pages/Page404/Page404.jsx';
 
 function AppRoutes() {
     return (
@@ -12,6 +13,7 @@ function AppRoutes() {
                 <Route path="/sobre" element={ <Sobre /> }></Route>
                 <Route path="/projetos" element={ <Projetos /> }></Route>
                 <Route path="/contatos" element={ <Contatos /> }></Route>
+                <Route path="/*" element={ <Page404 /> }></Route>
             </Routes>
         </BrowserRouter>
     );

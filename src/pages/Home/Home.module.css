@@ -1,4 +1,4 @@
-.container {
+.home {
     width: 100%;
     min-height: 90vh;
 
@@ -7,17 +7,17 @@
     justify-content: space-around;
 }
 
-.container img {
+.home img {
     height: 500px;
 }
 
-.container p {
+.home p {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
-.container span {
+.home span {
     color: var(--red);
 }
 

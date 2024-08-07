@@ -1,0 +1,20 @@
+.tit2 {
+    padding-top: 2rem;
+}
+
+.txts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.txtG, .txtRed {
+    font-size: 300px;
+    color: var(--red);
+    font-weight: bold;
+}
+
+.txtRed {
+    font-size: 1.5rem;
+}
