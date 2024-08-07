@@ -1,16 +1,10 @@
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
-import Container from "../../components/Container/Container";
+import styles from './Sobre.module.css';
 
 function Sobre() {
     return (
-        <>
-            <Header />
-            <Container>
-                <h2>Sobre</h2>
-            </Container>
-            <Footer />
-        </>
+        <section>
+            <h2>Sobre</h2>
+        </section>
     );
 }
 
