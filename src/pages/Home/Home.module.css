@@ -42,4 +42,5 @@
 
 .btnRed:hover {
     background-color: var(--primary);
+    transition: all .5s;
 }
