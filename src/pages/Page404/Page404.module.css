@@ -1,5 +1,15 @@
+.page404 {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .tit2 {
     padding-top: 2rem;
+    text-align: center;
 }
 
 .txts {
@@ -17,4 +27,13 @@
 
 .txtRed {
     font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .txtG {
+        font-size: 150px;
+    }
+    .txtRed {
+        font-size: 1rem;
+    }
 }

@@ -44,3 +44,21 @@
     background-color: var(--primary);
     transition: all .5s;
 }
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .home p {
+        font-size: 2rem;
+        
+    }
+    .home img {
+        max-width: 100%;
+        height: auto;
+        padding-inline: 1.5rem;
+    }
+}
